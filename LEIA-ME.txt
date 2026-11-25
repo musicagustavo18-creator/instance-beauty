@@ -1,0 +1,22 @@
+INSTANCE BEAUTY — APLICATIVO INSTALÁVEL (PWA)
+
+O que vem neste pacote:
+- index.html: o manual original, preservado
+- manifest.webmanifest: identifica o app para Android/Chrome
+- sw.js: permite abrir o app sem internet depois do primeiro carregamento
+- icons/: ícones do aplicativo
+
+IMPORTANTE:
+Para aparecer “Instalar aplicativo” no Android, estes arquivos precisam estar publicados em um endereço HTTPS.
+Abrir o index.html diretamente pelo gerenciador de arquivos não instala o PWA.
+
+COMO PUBLICAR PELO CELULAR (GitHub Pages):
+1. Extraia este ZIP.
+2. No navegador, entre em github.com e abra o repositório onde deseja publicar.
+3. Envie TODOS os arquivos e a pasta icons, mantendo a estrutura.
+4. Em Settings > Pages, escolha publicar a partir da branch principal (root).
+5. Aguarde o GitHub gerar o endereço HTTPS.
+6. Abra esse endereço no Chrome do Android.
+7. Toque no menu ⋮ e escolha “Instalar app” ou “Adicionar à tela inicial”.
+
+Depois da instalação, o manual abre em tela própria, com ícone, e pode funcionar offline após ser carregado uma vez.
